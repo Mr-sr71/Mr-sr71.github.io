@@ -25,7 +25,7 @@ Welcome to my HomePage! My github username is Mr-sr71 and I primarily make mugen
     <!-- Only 1 Box Left -->
     <td align="center" width="200">
       <a href="https://www.mediafire.com/file/llslajujc680b0s/%2528update_1.1%2529_BlackFlash_%2528edit%2529.rar/file">
-        <img src="https://mugenarchive.com/forums/576546d5bf292b9424d94fde84f7b5a3/images/_update_1_1_BlackFlash_edit__58906.gif" width="100%" alt="Character 1"/><br />
+        <img src="https://github.com/Mr-sr71/Mr-sr71.github.io/blob/main/_update_1_1_BlackFlash_edit__58906.gif?raw=true" width="100%" alt="Character 1"/><br />
         <sub><b>Black Flash</b></sub>
       </a>
     </td>
