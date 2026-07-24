@@ -4,7 +4,7 @@ Welcome to my HomePage! My github username is Mr-sr71 and I primarily make mugen
 
 ![My Project Visual or Banner](https://i.redd.it/ueeupp2mcv191.png)
 
-## 📋 Rosters
+## Rosters
 
 <table>
   <tr>
@@ -18,7 +18,7 @@ Welcome to my HomePage! My github username is Mr-sr71 and I primarily make mugen
   </tr>
 </table>
 
-## 👥 Characters
+## Edits
 
 <table>
   <tr>
