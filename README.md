@@ -1,1 +1,1 @@
-Hi I am Mr-sr71 and I make primarily mugen/ikemen characters and character lists.
+Hi I am JazMugen1 I Primarily make mugen character edits and custom mugen/ikemen rosters.
