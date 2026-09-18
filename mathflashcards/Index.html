@@ -1,1 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasper Game Portal</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #121212;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        /* Container handles vertical scrolling if many items are added */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            width: 100%;
+            margin: auto;
+        }
+
+        .game-card {
+            background-color: #1c1c1c;
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(255, 0, 0, 0.1);
+        }
+
+        .game-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background-color: #2a2a2a; /* Placeholder color while image loads */
+        }
+
+        /* Styling for the visible game titles */
+        .game-title {
+            color: #ffffff;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-top: 15px;
+            padding: 0 15px;
+            text-align: center;
+        }
+
+        /* Styling for the visible game descriptions */
+        .game-desc {
+            color: #a0a0a0;
+            font-size: 0.9rem;
+            margin-top: 8px;
+            padding: 0 15px;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .play-button {
+            display: inline-block;
+            background-color: #dc2626;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            padding: 12px 32px;
+            border-radius: 6px;
+            margin-top: 20px;
+            transition: background-color 0.2s ease;
+        }
+
+        .play-button:hover {
+            background-color: #b91c1c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+
+        <!-- Game Item 1 -->
+        <div class="game-card">
+            <img src="https://picsum.photos" alt="Game Thumbnail" class="game-image">
+            <div class="game-title">Game 1 Title</div>
+            <div class="game-desc">This is the description for Game 1.</div>
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="play-button" title="Play Game 1">Play</a>
+        </div>
+
+        <!-- Game Item 2 -->
+        <div class="game-card">
+            <img src="https://picsum.photos" alt="Game Thumbnail" class="game-image">
+            <div class="game-title">Game 2 Title</div>
+            <div class="game-desc">This is the description for Game 2.</div>
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="play-button" title="Play Game 2">Play</a>
+        </div>
+
+        <!-- Game Item 3 -->
+        <div class="game-card">
+            <img src="https://picsum.photos" alt="Game Thumbnail" class="game-image">
+            <div class="game-title">Game 3 Title</div>
+            <div class="game-desc">This is the description for Game 3.</div>
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="play-button" title="Play Game 3">Play</a>
+        </div>
+
+        <!-- Game Item 4 -->
+        <div class="game-card">
+            <img src="https://picsum.photos" alt="Game Thumbnail" class="game-image">
+            <div class="game-title">Game 4 Title</div>
+            <div class="game-desc">This is the description for Game 4.</div>
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="play-button" title="Play Game 4">Play</a>
+        </div>
+
+        <!-- To add more games, just copy and paste the block below directly under this line -->
+        <!-- 
+        <div class="game-card">
+            <img src="YOUR_IMAGE_URL_HERE" alt="Game Thumbnail" class="game-image">
+            <div class="game-title">YOUR_TITLE_HERE</div>
+            <div class="game-desc">YOUR_DESCRIPTION_HERE</div>
+            <a href="YOUR_LINK_HERE" target="_blank" rel="noopener noreferrer" class="play-button" title="YOUR_TITLE_HERE">Play</a>
+        </div> 
+        -->
+
+    </div>
+
+</body>
+</html>
 
